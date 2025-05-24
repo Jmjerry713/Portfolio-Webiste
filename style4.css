@@ -1,0 +1,75 @@
+.background3 {
+            background: #ffb133;
+            background: linear-gradient(220deg, rgba(255, 177, 51, 1) 5%, rgba(8, 197, 255, 1) 100%);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            width: 100%;
+            position: relative;
+}
+
+.overlay3 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: -200px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Optional dark overlay for readability */
+}
+
+.title1 {
+    font-family: Georgia, serif;
+    font-size: 60px;
+    position: relative;
+    top:-250px;
+    left: -350px;
+}
+.inbox1 {
+    width: -200px;
+    height: -200px;
+    position: relative;
+    left: -150px;
+}
+
+.tcil {
+    width: 80px;
+    height: 80px;
+}
+
+.jsj {
+    width: 80px;
+    height: 80px;
+}
+
+.pc {
+    width: 80px;
+    height: 80px;
+}
+
+.int {
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+
+.box3 {
+    background-color: whitesmoke;
+    opacity: 0.5;
+    border-radius: 50px 0 0 50px;
+    width: 825px;
+    height: 600px;
+    position: absolute;
+    left: 680px;
+}
+
+@media (max-width: 1400px) {
+    .box3 {
+        width: 655px;
+    }
+}

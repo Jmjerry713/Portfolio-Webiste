@@ -1,0 +1,74 @@
+.background4 {
+            background: #ffb133;
+            background: linear-gradient(220deg, rgba(255, 177, 51, 1) 5%, rgba(8, 197, 255, 1) 100%);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            width: 100%;
+            position: relative;
+}
+
+.overlay4 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Optional dark overlay for readability */
+}
+
+.vb1 {
+    position: relative;
+    left: -200px;
+    top: 10px;
+}
+
+.vb2 {
+    position: relative;
+    top: 10px;
+    left: -125px;
+}
+
+.vb3 {
+    position: relative;
+    left: -50px;
+    top: 0px;
+}
+
+.ed {
+    position: relative;
+    left: 0px;
+    top: -250px;
+    font-size: 50px;
+}
+
+@media (max-width: 1400px) {
+    .vb1 {
+    position: relative;
+    left: -230px;
+    top: 10px;
+}
+
+.vb2 {
+    position: relative;
+    top: 10px;
+    left: -215px;
+}
+
+.vb3 {
+    position: relative;
+    left: -200px;
+    top: 0px;
+}
+
+.ed {
+    position: relative;
+    left: -30px;
+}
+}

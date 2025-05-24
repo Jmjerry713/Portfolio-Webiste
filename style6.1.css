@@ -1,0 +1,25 @@
+.placeholder {
+  width: 400px;
+  height: 200px;
+  position: relative;
+  top: -170px;
+}
+
+.box4 {
+    width: 420px;
+    height: 400px;
+    background-color: antiquewhite;
+    position: relative;
+    top: 200px;
+    left: -10px;
+}
+
+.vidtext {
+    color: black;
+    position: relative;
+    top: -180px;
+}
+
+.vidtext p {
+    width: 80%;
+}
